@@ -1,0 +1,18 @@
+.component-chat-wrapper {
+	z-index: 1000;
+
+	width: 280px;
+	height: 416px;
+
+	position: absolute;
+	bottom: 2%;
+	right: 6%;
+
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+
+	-webkit-box-shadow: 0px 3px 34px 0px rgba(0, 0, 0, 0.43);
+	-moz-box-shadow: 0px 3px 34px 0px rgba(0, 0, 0, 0.43);
+	box-shadow: 0px 3px 34px 0px rgba(0, 0, 0, 0.43);
+}

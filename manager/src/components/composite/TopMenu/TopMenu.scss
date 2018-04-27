@@ -1,0 +1,103 @@
+@import "../../styles/media/style.scss";
+
+.component-top-menu-wrapper {
+  height: 39px;
+  width: 100%;
+  background: #23272b;
+  color: #97a1ad;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-shadow: 0px 1px 5px -1px #000;
+
+  .component-top-menu-hider {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 2px;
+    font-size: 26px;
+    margin-left: 0.4%;
+    width: 2%;
+    cursor: pointer;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  .component-top-menu-logo {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 2px;
+    font-size: 26px;
+    width: 32%;
+    cursor: pointer;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  .component-top-menu-manager-info {
+    padding: 6px;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+
+    .component-top-menu-manager-info-face {
+      vertical-align: middle;
+      display: inline-block;
+      width: 26px;
+      height: 26px;
+      img {
+        width: 26px;
+        height: 26px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+      }
+    }
+
+    .component-top-menu-manager-info-name {
+      display: inline-block;
+      margin-left: 10px;
+      a {
+        border-bottom: 1px dotted #a5a5a5;
+        text-decoration: none;
+        color: #97a1ad;
+        font-size: 12px;
+      }
+
+      a:hover {
+        color: #ffffff;
+      }
+    }
+
+    .component-top-menu-manager-info-logout {
+      vertical-align: middle;
+      display: inline-block;
+      width: 26px;
+      height: 26px;
+      img {
+        width: 26px;
+        height: 26px;
+      }
+    }
+  }
+
+  .component-top-menu-controls {
+    width: 39%;
+    display: inline-block;
+    text-align: right;
+    a {
+      margin-left: 15px;
+      border-bottom: 1px dotted #a5a5a5;
+      text-decoration: none;
+      color: #97a1ad;
+      font-size: 11px;
+    }
+
+    a:hover {
+      color: #ffffff;
+    }
+  }
+}

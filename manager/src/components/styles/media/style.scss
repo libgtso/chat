@@ -1,0 +1,60 @@
+@media (min-width: 1024px) and (max-width: 1200px) {
+  #root {
+    max-width: 1200px;
+  }
+  .component-manager-wrapper {
+    display: table;
+    .component-left-menu-wrapper,
+    .component-chat-window-wrapper {
+      display: table-cell;
+    }
+  }
+  .component-left-menu-project-label {
+    span {
+      font-size: 14px;
+    }
+  }
+  .component-top-menu-wrapper {
+    .component-top-menu-logo {
+      width: 33%;
+    }
+  }
+  .component-chat-wrapper .component-chat-controls .component-chat-control {
+    margin-right: 1%;
+    width: 24%;
+  }
+  .component-user-list-wrapper {
+    height: 100%;
+    .component-user-list-dialogs-stats {
+      .component-user-list-dialogs-stats-all,
+      .component-user-list-dialogs-stats-unread {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .component-user-list-dialogs-stats-unread {
+        margin-left: 0;
+      }
+    }
+    .component-user-list-dialogs .component-user-list-dialog {
+      .component-user-list-dialog-face {
+        display: none;
+      }
+      .component-user-list-dialog-message {
+        .component-user-list-dialog-text {
+          height: 20px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+        }
+        .component-user-list-dialog-datetime {
+          display: block;
+          width: 37%;
+        }
+      }
+    }
+  }
+  .component-chat-message {
+    width: 84%;
+  }
+}

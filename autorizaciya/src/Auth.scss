@@ -1,0 +1,37 @@
+.auth-window {
+  margin: 0 auto;
+  width: 330px;
+  height: 250px;
+  margin-top: 300px;
+  text-align: center;
+  border: 1px solid gray;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.auth-header {
+  display: block;
+  padding: 20px;
+  color: gray;
+}
+.auth-form {
+  input {
+    padding: 15px 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 250px;
+  }
+  button {
+    background: #f0776c;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    border-bottom: 2px solid #d76b60;
+    width: 295px;
+    cursor: pointer;
+  }
+}

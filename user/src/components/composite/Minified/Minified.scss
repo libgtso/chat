@@ -1,0 +1,90 @@
+$width: 220px;
+$height: 28px;
+
+.component-chat-minified-wrapper {
+	vertical-align: center;
+	z-index: 1000;
+
+	width: $width;
+	height: $height;
+
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+	margin: 0;
+	padding-top: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 4%;
+
+	-webkit-box-shadow: 0px 3px 34px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 3px 34px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 3px 34px 0px rgba(0, 0, 0, 0.2);
+
+	.component-chat-minified-status {
+		margin-left: 8px;
+		display: inline-block;
+		background: #47d62b;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		min-width: 6px;
+		min-height: 6px;
+	}
+
+	.component-chat-minified-manager-name {
+		box-sizing: border-box;
+		margin-left: 6px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: bold;
+		span {
+			border-bottom: 2px dotted #a5a5a5;
+			text-decoration-style: none;
+		}
+	}
+
+	.component-chat-minified-unread {
+		display: inline-block;
+		margin-left: 8px;
+		font-size: 14px;
+
+		.component-chat-minified-unread-icon {
+			margin: 0;
+			background: greenyellow;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+			color: #000;
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			text-align: center;
+		}
+		.component-chat-minified-unread-count {
+			margin-left: 4px;
+			display: inline-block;
+		}
+	}
+
+	.component-chat-minified-control {
+		position: absolute;
+		top: 6px;
+		right: 10px;
+		font-size: 24px;
+		color: #cccccc;
+
+		span:hover {
+			color: #9b9b9b;
+			cursor: pointer;
+		}
+
+		span {
+			margin-left: 2px;
+		}
+	}
+}
